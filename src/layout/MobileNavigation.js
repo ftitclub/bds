@@ -6,7 +6,7 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
   const [toggle, setToggle] = useState(false);
   return (
     <Fragment>
-      <div className="metaportal_fn_mobnav">
+      <div className="hunterai_fn_mobnav">
         <div className="mob_top">
           <div className="social_trigger">
             <div className="trigger" onClick={() => navigationToggle(true)}>
@@ -16,11 +16,11 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
               <ul>
                 <li>
                   <a
-                    href="https://www.facebook.com/"
+                    href="https://t.me/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Fb.
+                    Tg.
                   </a>
                 </li>
                 <li>
@@ -34,20 +34,11 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
                 </li>
                 <li>
                   <a
-                    href="https://www.instagram.com/"
+                    href="https://www.dextools.io"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    In.
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.linkedin.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Ln.
+                    Dx.
                   </a>
                 </li>
               </ul>
@@ -55,20 +46,20 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
           </div>
           <div className="wallet">
             <a
-              href="#"
-              className="metaportal_fn_button wallet_opener"
-              onClick={() => walletToggle(true)}
+              href="https://app.uniswap.org" target="_blank"
+                    rel="noreferrer"
+              className="hunterai_fn_button wallet_opener"
             >
-              <span>Wallet</span>
+              <span>BUY $FANG</span>
             </a>
           </div>
         </div>
         <div className="mob_mid">
           <div className="logo">
             <Link href="/">
-              <a>
-                <img src="/img/logo.png" alt="" />
-              </a>
+              <span style={{fontWeight: 'bolder', color: 'white', fontStyle: 'italic'}} >
+                HUNTER<br/>AI
+              </span>
             </Link>
           </div>
           <div
@@ -92,17 +83,12 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
             </li>
             <li>
               <a className="creative_link" href="#collection">
-                Collection
+                Roadmap
               </a>
             </li>
             <li>
               <a className="creative_link" href="#news">
                 Blog
-              </a>
-            </li>
-            <li>
-              <a className="creative_link" href="#contact">
-                Contact
               </a>
             </li>
           </ul>

@@ -8,9 +8,9 @@ const Navigation = ({ navigation, navigationToggle }) => {
     <Fragment>
       <div
         onClick={() => navigationToggle(false)}
-        className={`metaportal_fn_leftnav_closer ${navigation ? "active" : ""}`}
+        className={`hunterai_fn_leftnav_closer ${navigation ? "active" : ""}`}
       />
-      <div className={`metaportal_fn_leftnav ${navigation ? "active" : ""}`}>
+      <div className={`hunterai_fn_leftnav ${navigation ? "active" : ""}`}>
         <a
           href="#"
           className="fn__closer"
@@ -20,31 +20,31 @@ const Navigation = ({ navigation, navigationToggle }) => {
         </a>
         <div className="navbox">
           <div className="list_holder">
-            <ul className="metaportal_fn_items">
+            <ul className="hunterai_fn_items">
               <li>
                 <div className="item">
                   <a
-                    href="https://opensea.io/"
+                    href="https://t.me/"
                     target="_blank"
                     rel="noreferrer"
                   />
                   <span className="icon">
-                    <img src="/img/market/opensea.png" alt="" />
+                    <img src="/img/market/telegram.png" alt="" />
                   </span>
-                  <span className="text">Opensea</span>
+                  <span className="text">Telegram</span>
                 </div>
               </li>
               <li>
                 <div className="item">
                   <a
-                    href="https://discord.com/"
+                    href="https://twitter.com/"
                     target="_blank"
                     rel="noreferrer"
                   />
                   <span className="icon">
-                    <img src="/img/market/discord.png" alt="" />
+                    <img src="/img/market/twitter.png" alt="" />
                   </span>
-                  <span className="text">Discord</span>
+                  <span className="text">Twitter</span>
                 </div>
               </li>
             </ul>
@@ -61,179 +61,22 @@ const Navigation = ({ navigation, navigationToggle }) => {
               }}
             >
               <li>
-                <a
-                  href="#"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setSubMenu("home");
-                  }}
-                  className={`${subMenu == "home" ? "active" : ""}`}
-                >
-                  <span className="creative_link">
-                    Home
-                    <img src="/svg/down.svg" alt="" className="fn__svg" />
-                  </span>
-                </a>
-                <ul className="sub-menu">
-                  <li>
-                    <a
-                      href="#"
-                      className="prev"
-                      onClick={() => setSubMenu(null)}
-                    >
-                      <span className="creative_link">
-                        <img src="/svg/down.svg" alt="" className="fn__svg" />
-                        Home
-                      </span>
-                    </a>
-                  </li>
-
+                <ul className="creative_link">
                   <li>
                     <Link href="/">
                       <a onClick={() => navigationToggle(false)}>
-                        <span className="creative_link">#1 3D Carousel</span>
-                      </a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/index-2">
-                      <a onClick={() => navigationToggle(false)}>
-                        <span className="creative_link">
-                          #2 Bended Carousel
-                        </span>
-                      </a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/index-3">
-                      <a onClick={() => navigationToggle(false)}>
-                        <span className="creative_link">
-                          #3 Video Background
-                        </span>
-                      </a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/index-4">
-                      <a onClick={() => navigationToggle(false)}>
-                        <span className="creative_link">#4 Water Effect</span>
-                      </a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/index-5">
-                      <a onClick={() => navigationToggle(false)}>
-                        <span className="creative_link">
-                          #5 Simple Carousel
-                        </span>
-                      </a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/index-6">
-                      <a onClick={() => navigationToggle(false)}>
-                        <span className="creative_link">
-                          #6 Fullscreen Slider
-                        </span>
+                        <span className="creative_link">Home</span>
                       </a>
                     </Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <Link href="/nft/1">
+                <Link href="/">
                   <a onClick={() => navigationToggle(false)}>
-                    <span className="creative_link">Mint Page</span>
+                    <span className="creative_link">Whitepaper</span>
                   </a>
                 </Link>
-              </li>
-              <li>
-                <Link href="/collection">
-                  <a onClick={() => navigationToggle(false)}>
-                    <span className="creative_link">Collection</span>
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setSubMenu("pages");
-                  }}
-                  className={`${subMenu == "pages" ? "active" : ""}`}
-                >
-                  <span className="creative_link">
-                    Pages
-                    <img src="/svg/down.svg" alt="" className="fn__svg" />
-                  </span>
-                </a>
-                <ul className="sub-menu">
-                  <li>
-                    <a
-                      href="#"
-                      className="prev"
-                      onClick={() => setSubMenu(null)}
-                    >
-                      <span className="creative_link">
-                        <img src="/svg/down.svg" alt="" className="fn__svg" />
-                        Pages
-                      </span>
-                    </a>
-                  </li>
-
-                  <li>
-                    <Link href="/coming-soon">
-                      <a onClick={() => navigationToggle(false)}>
-                        <span className="creative_link">Coming Soon</span>
-                      </a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/404">
-                      <a onClick={() => navigationToggle(false)}>
-                        <span className="creative_link">404 Page</span>
-                      </a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/protected">
-                      <a onClick={() => navigationToggle(false)}>
-                        <span className="creative_link">Protected Page</span>
-                      </a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/no-results">
-                      <a onClick={() => navigationToggle(false)}>
-                        <span className="creative_link">Search No Results</span>
-                      </a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/cookies">
-                      <a onClick={() => navigationToggle(false)}>
-                        <span className="creative_link">Cookies</span>
-                      </a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/policy">
-                      <a onClick={() => navigationToggle(false)}>
-                        <span className="creative_link">Privacy Policy</span>
-                      </a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/terms-conditions">
-                      <a onClick={() => navigationToggle(false)}>
-                        <span className="creative_link">
-                          Terms &amp; Conditions
-                        </span>
-                      </a>
-                    </Link>
-                  </li>
-                </ul>
               </li>
               <li>
                 <Link href="/blog">
@@ -243,76 +86,20 @@ const Navigation = ({ navigation, navigationToggle }) => {
                 </Link>
               </li>
               <li>
-                <Link href="/blog-single">
+                <Link href="https://dextools.io">
                   <a onClick={() => navigationToggle(false)}>
-                    <span className="creative_link">Blog Single</span>
+                    <span className="creative_link">Dextools</span>
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="https://etherscan.io">
+                  <a onClick={() => navigationToggle(false)}>
+                    <span className="creative_link">Etherscan</span>
                   </a>
                 </Link>
               </li>
             </ul>
-          </div>
-          <div className="info_holder">
-            <div className="copyright">
-              <p>
-                Copyright 2022 - Designed &amp; Developed by{" "}
-                <a
-                  href="https://themeforest.net/user/codeefly/portfolio"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  CodeeFly
-                </a>
-              </p>
-            </div>
-            <div className="social_icons">
-              <ul>
-                <li>
-                  <a href="#">
-                    <img
-                      src="/svg/social/twitter-1.svg"
-                      alt=""
-                      className="fn__svg"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img
-                      src="/svg/social/facebook-1.svg"
-                      alt=""
-                      className="fn__svg"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img
-                      src="/svg/social/instagram-1.svg"
-                      alt=""
-                      className="fn__svg"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img
-                      src="/svg/social/pinterest-1.svg"
-                      alt=""
-                      className="fn__svg"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img
-                      src="/svg/social/behance-1.svg"
-                      alt=""
-                      className="fn__svg"
-                    />
-                  </a>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>

@@ -6,31 +6,24 @@ const Footer = () => {
         <div className="footer">
           <div className="left_part">
             <p>
-              Copyright 2022 — Designed &amp; Developed by{" "}
-              <a
-                href="https://themeforest.net/user/frenify/portfolio"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Frenify
-              </a>
+              Copyright 2023 - Hunter AI $FANG
             </p>
           </div>
           <div className="right_part">
             <ul>
               <li>
-                <Link href="/policy">
-                  <a className="creative_link">Privacy Policy</a>
+                <Link href="https://dextools.io">
+                  <a className="creative_link">Dextools</a>
                 </Link>
               </li>
               <li>
-                <Link href="/cookies">
-                  <a className="creative_link">Cookies</a>
+                <Link href="https://t.me/">
+                  <a className="creative_link">Telegram</a>
                 </Link>
               </li>
               <li>
-                <Link href="/terms-conditions">
-                  <a className="creative_link">Terms &amp; Conditions</a>
+                <Link href="https://twitter.com">
+                  <a className="creative_link">Twitter</a>
                 </Link>
               </li>
             </ul>

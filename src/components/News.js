@@ -10,7 +10,6 @@ const News = () => {
         >
           Latest Articles
         </h3>
-        {/* News Shotcode */}
         <div className="fn_cs_news">
           <div className="news_part">
             <div className="left_items">
@@ -21,7 +20,7 @@ const News = () => {
                   </span>
                 </div>
                 <div className="meta">
-                  <p>August 09, 2022 / MetaVerse / 4 Comments</p>
+                  <p>August 09, 2022 / MetaVerse</p>
                 </div>
                 <div className="title">
                   <h3>
@@ -54,7 +53,7 @@ const News = () => {
                   </span>
                 </div>
                 <div className="meta">
-                  <p>August 09, 2022 / MetaVerse / 4 Comments</p>
+                  <p>August 09, 2022 / MetaVerse</p>
                 </div>
                 <div className="title">
                   <h3>
@@ -78,7 +77,7 @@ const News = () => {
                   </span>
                 </div>
                 <div className="meta">
-                  <p>August 09, 2022 / NFT / 4 Comments</p>
+                  <p>August 09, 2022 / NFT</p>
                 </div>
                 <div className="title">
                   <h3>
@@ -95,29 +94,12 @@ const News = () => {
                   </Link>
                 </div>
               </div>
-              <div className="blog__item">
-                <div className="counter">
-                  <span className="cc">
-                    <span>04</span>
-                  </span>
-                </div>
-                <div className="meta">
-                  <p>August 09, 2022 / MetaVerse / 4 Comments</p>
-                </div>
-                <div className="read_more">
-                  <Link href="/blog-single">
-                    <a>
-                      <span>Read More</span>
-                    </a>
-                  </Link>
-                </div>
-              </div>
             </div>
           </div>
           <div className="bottom_part">
             <div className="left_bot">
               <Link href="/blog">
-                <a className="metaportal_fn_button full">
+                <a className="hunterai_fn_button full">
                   <span>Read All Articles</span>
                 </a>
               </Link>
@@ -131,7 +113,6 @@ const News = () => {
             </div>
           </div>
         </div>
-        {/* !News Shotcode */}
       </div>
     </section>
   );

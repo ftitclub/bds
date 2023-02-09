@@ -20,7 +20,7 @@ const Header = ({ walletToggle, navigationToggle }) => {
             <div className="logo">
               <Link href="/">
                 <a>
-                  <img src="/img/logo.png" alt="" />
+                  <img src="/img/about/1.jpg" alt="" style={{width:'80px'}}/>
                 </a>
               </Link>
             </div>
@@ -39,17 +39,12 @@ const Header = ({ walletToggle, navigationToggle }) => {
               </li>
               <li>
                 <Link href="/#collection">
-                  <a className="creative_link">Collection</a>
+                  <a className="creative_link">Roadmap</a>
                 </Link>
               </li>
               <li>
                 <Link href="/#news">
                   <a className="creative_link">Blog</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/#contact">
-                  <a className="creative_link">Contact</a>
                 </Link>
               </li>
             </ul>
@@ -61,9 +56,9 @@ const Header = ({ walletToggle, navigationToggle }) => {
                 e.preventDefault();
                 walletToggle(true);
               }}
-              className="metaportal_fn_button wallet_opener"
+              className="hunterai_fn_button wallet_opener"
             >
-              <span>Connect To Wallet</span>
+              <span>BUY $FANG</span>
             </a>
           </div>
         </div>

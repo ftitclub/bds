@@ -2,7 +2,6 @@ import Link from "next/link";
 const About = () => {
   return (
     <section id="about">
-      {/* About Shortcode */}
       <div className="fn_cs_about">
         <div className="left_part">
           <div className="img">
@@ -17,8 +16,8 @@ const About = () => {
         </div>
         <div className="right_part">
           <div className="right_in">
-            <h3 className="fn__maintitle" data-text="The Rise of Legends">
-              The Rise of Legends
+            <h3 className="fn__maintitle" data-text="Join the Alpha Pack">
+              Join the Alpha Pack
             </h3>
             <div className="fn_cs_divider">
               <div className="divider">
@@ -28,52 +27,39 @@ const About = () => {
             </div>
             <div className="desc">
               <p>
-                As the first hero of the Meta Legends, collection has over 9,999
-                unique skins drawn from the different missions and challenges he
-                faced throughout his life.
+                Using AI technology to make your trading strategies better, Hunter AI will make sure your assets are going in the right direction.
               </p>
               <p>
-                The artwork has been hand-drawned by Robert Green in the
-                traditional anime style and composited by Layla Efiyo.
+                Hunter AI - $FANG is a revolutionary cryptocurrency that enables users to access a predictive bot
+                 that predicts the next upcoming cryptocurrency to buy, with additional incentives for holders of $FANG.
               </p>
               <p>
-                Curabitur pharetra velit eget dignissim varius. In vulputate
-                elit at tortor pellentesque, non pulvinar neque consequat.
-                Aenean tristique odio in libero tincidunt maximus. Nulla
-                pharetra viverra dolor ut blandit. Cras finibus vel tortor eget
-                lacinia. Pellentesque interdum elit non lacinia faucibus. Morbi
-                nec felis auctor, tincidunt lacus sit amet, iaculis ipsum.
-                Phasellus tempus sit amet justo et feugiat. Duis blandit semper
-                lorem, egestas euismod ligula pharetra ac. Sed porta lorem eget
-                neque bibendum, eget euismod justo mollis.
-              </p>
-              <p>
-                Donec tristique porttitor sem, eget fermentum elit varius nec.
-                Donec ut orci ipsum. Morbi efficitur felis eget dapibus
-                fermentum. Phasellus sed tellus volutpat, hendrerit leo non,
-                sollicitudin neque. Etiam ac lacus quam. Vivamus suscipit nisl
-                tellus, at congue odio commodo at. Cras ante enim, sodales at
-                pretium et, tempus at libero.
+              $FANG provides an automated cryptocurrency tracking and recommendation system that 
+              makes it easier and quicker for investors to indetify the best coins to purchase. 
+              This innovative system uses algorithms to detect patterns and trends in the cryptocurrency market,
+               making it easier than ever for crypto enthusiasts to navigate their portfolio. By holding a certain amount of $FANG, 
+               users get access to Hunter AI predictive bot which indicates what cryptocurrency could be worth considering next, 
+               saving them time and energy sorting through endless arrays of projects without staying up all night. With Hunter AI - $FANG, 
+               you can know confidently where your investments go.
+
               </p>
             </div>
             <a
               href="https://discord.com/"
-              className="metaportal_fn_button"
+              className="hunterai_fn_button"
               target="_blank"
               rel="noreferrer"
             >
-              <span>Find us On Discord</span>
+              <span>$FANG WHITEPAPER</span>
             </a>
           </div>
         </div>
       </div>
-      {/* !About Shortcode */}
       <div className="container">
-        {/* Mint Shortcode */}
         <div className="fn_cs_mint">
           <div className="left_part">
-            <h3 className="fn__maintitle" data-text="How to Mint">
-              How to Mint
+            <h3 className="fn__maintitle" data-text="How to use Hunter AI Dapp">
+            How to use Hunter AI Dapp
             </h3>
             <div className="fn_cs_divider">
               <div className="divider">
@@ -83,13 +69,13 @@ const About = () => {
             </div>
             <div className="desc">
               <p>
-                As the first hero of the Meta Legends, collection has over 9,999
-                unique skins drawn from the different missions and challenges he
-                faced throughout his life.
+                Hunter AI DAPP provides various insights into a token of your choice, and helps you better
+                determine whether there is a possibility of making a profitable trade.
               </p>
               <p>
-                The artwork has been hand-drawned by Robert Green in the
-                traditional anime style and composited by Layla Efiyo.
+                To get started with the Hunter AI DAPP, you need to hold 0.3% of $FANG total supply.
+                You can purchase your $FANG tokens on Uniswap, or any other DEX that supports ethereum mainnet swaps and uniswap liquidity pools.
+                Once you have your $FANG tokens, simply connect your wallet to the Hunter AI DAPP and you are ready to analyze tokens.
               </p>
               <p>
                 Curabitur pharetra velit eget dignissim varius. In vulputate
@@ -112,20 +98,19 @@ const About = () => {
               </p>
             </div>
             <Link href="/nft-single">
-              <a className="metaportal_fn_button">
-                <span>How to Mint</span>
+              <a className="hunterai_fn_button">
+                <span>YOUTUBE</span>
               </a>
             </Link>
           </div>
           <div className="right_part">
-            {/* Steps Shortcode */}
             <div className="fn_cs_steps">
               <ul>
                 <li>
                   <div className="item">
                     <div className="item_in">
                       <h3 className="fn__gradient_title">01</h3>
-                      <p>Connect your Wallet</p>
+                      <p>BUY $FANG TOKENS</p>
                     </div>
                   </div>
                 </li>
@@ -133,7 +118,7 @@ const About = () => {
                   <div className="item">
                     <div className="item_in">
                       <h3 className="fn__gradient_title">02</h3>
-                      <p>Select Your Quantity</p>
+                      <p>CONNECT YOUR WALLET</p>
                     </div>
                   </div>
                 </li>
@@ -141,7 +126,7 @@ const About = () => {
                   <div className="item">
                     <div className="item_in">
                       <h3 className="fn__gradient_title">03</h3>
-                      <p>Confirm The Transaction</p>
+                      <p>INPUT TOKEN INFO</p>
                     </div>
                   </div>
                 </li>
@@ -149,14 +134,12 @@ const About = () => {
                   <div className="item">
                     <div className="item_in">
                       <h3 className="fn__gradient_title">04</h3>
-                      <p>Receive Your NFT’s</p>
+                      <p>ACCESS IN-DEPTH ANALYSIS</p>
                     </div>
                   </div>
                 </li>
               </ul>
             </div>
-            {/* !Steps Shortcode */}
-            {/* Video Shortcode */}
             <div className="fn_cs_video">
               <img src="/img/video/1.jpg" alt="" />
               <a
@@ -166,149 +149,10 @@ const About = () => {
                 <img src="/svg/play.svg" alt="" className="fn__svg" />
               </a>
             </div>
-            {/* /Video Shortcode */}
           </div>
         </div>
-        {/* !Mint Shortcode */}
       </div>
     </section>
   );
 };
 export default About;
-
-export const About2 = () => (
-  <section id="about2">
-    <div className="container small">
-      <div className="fn_cs_shortabout">
-        <div className="about_left">
-          <h3 className="fn__maintitle" data-text="The Rise of Legends">
-            The Rise of Legends
-          </h3>
-          <div className="fn_cs_divider">
-            <div className="divider">
-              <span />
-              <span />
-            </div>
-          </div>
-          <div className="desc">
-            <p>
-              As the first hero of the Meta Legends, collection has over 9,999
-              unique skins drawn from the different missions and challenges he
-              faced throughout his life.
-            </p>
-            <p>
-              The artwork has been hand-drawned by Robert Green in the
-              traditional anime style and composited by Layla Efiyo.
-            </p>
-          </div>
-          <a
-            href="https://discord.com/"
-            className="metaportal_fn_button"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span>Find us On Discord</span>
-          </a>
-        </div>
-        <div className="about_right">
-          <div className="abs_img" data-bg-img="/img/about/2.jpg" />
-        </div>
-      </div>
-      <div className="fn_cs_collection_info">
-        <h3 className="fn__gradient_title">10,000</h3>
-        <h3
-          className="fn__maintitle upper"
-          data-text="Total Items in Collection"
-        >
-          Total Items in Collection
-        </h3>
-        <p>
-          There are many variations of passages of lorem ipsum available, but
-          the majority have suffered alteration in some form, by injected
-          humour, or randomised words which {`don't`} look even slightly
-          believable.
-        </p>
-      </div>
-    </div>
-    <div className="fn_cs_video bg">
-      <div className="abs_img" data-bg-img="/img/video/1.jpg" />
-      <a
-        className="popup-youtube"
-        href="https://www.youtube.com/embed/7e90gBu4pas"
-      >
-        <img src="/svg/play.svg" alt="" className="fn__svg" />
-      </a>
-    </div>
-    <div className="container">
-      {/* Steps Shortcode */}
-      <div className="fn_cs_steps gap" data-cols={4} data-gap={60}>
-        <ul>
-          <li>
-            <div className="item">
-              <div className="item_in">
-                <h3 className="fn__gradient_title">01</h3>
-                <p>Connect your Wallet</p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div className="item">
-              <div className="item_in">
-                <h3 className="fn__gradient_title">02</h3>
-                <p>Select Your Quantity</p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div className="item">
-              <div className="item_in">
-                <h3 className="fn__gradient_title">03</h3>
-                <p>Confirm The Transaction</p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div className="item">
-              <div className="item_in">
-                <h3 className="fn__gradient_title">04</h3>
-                <p>Receive Your {`NFT’s`}</p>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-      {/* !Steps Shortcode */}
-      <div className="fn_cs_join">
-        <div className="join_in">
-          <h3 className="fn__maintitle upper" data-text="Join Our Community">
-            Join Our Community
-          </h3>
-          <p>
-            There are many variations of passages of lorem ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which {`don't`} look even slightly
-            believable.
-          </p>
-          <div className="buttons">
-            <a
-              href="https://opensea.io/"
-              className="metaportal_fn_button"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <span>Buy On Opensea</span>
-            </a>
-            <a
-              href="#"
-              className="metaportal_fn_button"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <span>WhiteList Now</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-);

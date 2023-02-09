@@ -2,11 +2,11 @@ html {
   scroll-behavior: smooth;
 }
 
-.metaportal_fn_leftnav .nav_holder .active ~ .sub-menu {
+.hunterai_fn_leftnav .nav_holder .active ~ .sub-menu {
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
 }
-.metaportal_fn_leftnav .nav_holder .active ~ .sub-menu::-webkit-scrollbar {
+.hunterai_fn_leftnav .nav_holder .active ~ .sub-menu::-webkit-scrollbar {
   width: 0px;
 }
 #ripple {
