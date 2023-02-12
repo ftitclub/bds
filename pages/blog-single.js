@@ -16,7 +16,7 @@ const BlogSingle = () => {
               </Link>
               <span className="separator">/</span>
               <span className="current">
-                hunterai’s NFT Goes Public in Nod to Crypto Adoption
+                Blog 1
               </span>
             </p>
           </div>
@@ -44,7 +44,7 @@ const BlogSingle = () => {
                   data-text="hunterai’s NFT Goes Public In Nod To Crypto Adoption"
                   data-align="left"
                 >
-                  hunterai’s NFT Goes Public In Nod To Crypto Adoption
+                Blog 1
                 </h3>
                 <div className="categories">
                   <a href="#">Tokens</a>, <a href="#">NFTs</a>,{" "}
@@ -111,7 +111,7 @@ const BlogSingle = () => {
                   ipsum primis in faucibus.
                 </p>
               </div>
-             
+
               <div className="hunterai_fn_tags">
                 <h4 className="label">Tags:</h4>
                 <a href="#">Tokens</a>
@@ -136,39 +136,45 @@ const BlogSingle = () => {
                 <div className="hunterai_fn_widget_articles">
                   <ul>
                     <li>
-                      <div className="item">
-                        <a href="#" className="full_link" />
-                        <h3 className="fn_title">
-                          Use social media to jump-start your creative career.
-                        </h3>
-                        <p className="fn_date">
-                          <span className="post_date">June 22, 2022</span>
-                        </p>
-                        <span className="count">1</span>
-                      </div>
+
+                      <Link href="/blog-single-1">
+                        <div className="item">
+                          <a href="#" className="full_link" />
+                          <h3 className="fn_title">
+                            Use social media to jump-start your creative career.
+                          </h3>
+                          <p className="fn_date">
+                            <span className="post_date">June 22, 2022</span>
+                          </p>
+                          <span className="count">1</span>
+                        </div>
+                      </Link>
                     </li>
                     <li>
-                      <div className="item">
-                        <a href="#" className="full_link" />
-                        <h3 className="fn_title">
-                          Staying at the Knickerbocker Mansion in Big Bear
-                        </h3>
-                        <p className="fn_date">
-                          <span className="post_date">June 22, 2022</span>
-                        </p>
-                        <span className="count">2</span>
-                      </div>
+
+                      <Link href="/blog-single-2">
+                        <div className="item">
+                          <a href="#" className="full_link" />
+                          <h3 className="fn_title">
+                            Staying at the Knickerbocker Mansion in Big Bear
+                          </h3>
+                          <p className="fn_date">
+                            <span className="post_date">June 22, 2022</span>
+                          </p>
+                          <span className="count">2</span>
+                        </div>
+                      </Link>
                     </li>
                   </ul>
                 </div>
               </div>
-             
+
             </div>
             {/* !Right Sidebar */}
           </div>
           {/* !Sidebar */}
         </div>
-       </div>
+      </div>
     </Layout>
   );
 };

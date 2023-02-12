@@ -55,20 +55,20 @@ const Blog = () => {
                   </div>
                   <div className="title">
                     <h3>
-                      <Link href="/blog-single">
+                      <Link href="/blog-single-1">
                         <a>Rewards for the Zoidster NFTs</a>
                       </Link>
                     </h3>
                   </div>
                   <div className="image">
-                    <Link href="/blog-single">
+                    <Link href="/blog-single-1">
                       <a>
                         <img src="/img/blog/2.jpg" alt="" />
                       </a>
                     </Link>
                   </div>
                   <div className="read_more">
-                    <Link href="/blog-single">
+                    <Link href="/blog-single-1">
                       <a>
                         <span>Read More</span>
                       </a>
@@ -88,7 +88,7 @@ const Blog = () => {
                   </div>
                   <div className="title">
                     <h3>
-                      <Link href="/blog-single">
+                      <Link href="/blog-single-2">
                         <a>
                           A Behind-the-Scenes Look: How the BRAWL-O-SEUM NFT Was
                           Created
@@ -97,14 +97,14 @@ const Blog = () => {
                     </h3>
                   </div>
                   <div className="image">
-                    <Link href="/blog-single">
+                    <Link href="/blog-single-2">
                       <a>
                         <img src="/img/blog/3.jpg" alt="" />
                       </a>
                     </Link>
                   </div>
                   <div className="read_more">
-                    <Link href="/blog-single">
+                    <Link href="/blog-single-2">
                       <a>
                         <span>Read More</span>
                       </a>

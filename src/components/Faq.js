@@ -3,38 +3,20 @@ import { useState } from "react";
 const Faq = () => {
   const faqs1 = [
     {
-      title: "What is Meta Legends?",
-      dec: "A handcrafted collection of 10,000 characters developed by artist Frenify. In its purest form, RENGA is art and the art of storytelling.",
+      title: "What is $FANG?",
+      dec: "Hunter AI ($FANG) is a utility token built on the Ethereum Chain. With its revolutionary technology it aims to be the go-to tool for optimizing trading.",
     },
     {
-      title: "WHAT IS THE ART OF SEASONS?      ",
-      dec: "A handcrafted collection of 10,000 characters developed by artist Frenify. In its purest form, RENGA is art and the art of storytelling.",
+      title: "How can $FANG benefit me?",
+      dec: "$FANG has built a unique system specifically designed to help YOU make better decisions when trading. Through the use of AI the $FANG DAPP will help you check the credibility of a project, identify top-performing wallets, give an in-depth analysis of your own trading and more.",
     },
     {
-      title: "HOW DO I STAY UPDATED AND SAFE?",
-      dec: "A handcrafted collection of 10,000 characters developed by artist Frenify. In its purest form, RENGA is art and the art of storytelling.",
+      title: "How much supply do I need to hold to access the DAPP?",
+      dec: "The total supply needed for DAPP access will be 0.5%.",
     },
     {
-      title: "WHAT IS META LEGENDS?",
-      dec: "A handcrafted collection of 10,000 characters developed by artist Frenify. In its purest form, RENGA is art and the art of storytelling.",
-    },
-  ];
-  const faqs2 = [
-    {
-      title: "How can I mint my character?",
-      dec: "A handcrafted collection of 10,000 characters developed by artist Frenify. In its purest form, RENGA is art and the art of storytelling.",
-    },
-    {
-      title: "HOW MANY LEGENDS IS ISSUED?",
-      dec: "A handcrafted collection of 10,000 characters developed by artist Frenify. In its purest form, RENGA is art and the art of storytelling.",
-    },
-    {
-      title: "WHEN IS THE SALE DATE?",
-      dec: "A handcrafted collection of 10,000 characters developed by artist Frenify. In its purest form, RENGA is art and the art of storytelling.",
-    },
-    {
-      title: "WHAT ABOUT BLOCKCHAIN?",
-      dec: "A handcrafted collection of 10,000 characters developed by artist Frenify. In its purest form, RENGA is art and the art of storytelling.",
+      title: "How can I help?",
+      dec: "Become an active member of the community and utilize your favorite social medias to spread the word about $FANG!",
     },
   ];
   const [active, setActive] = useState(`a0`);
@@ -97,9 +79,6 @@ const Faq = () => {
           </div>
           <div className="faq_col">
             <div className="fn_cs_accordion">{faqMap(faqs1, "a")}</div>
-          </div>
-          <div className="faq_col">
-            <div className="fn_cs_accordion">{faqMap(faqs2, "b")}</div>
           </div>
         </div>
       </div>
